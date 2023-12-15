@@ -1,12 +1,12 @@
 {
-  "name": "itog-work",
+  "name": "diplom-work",
   "version": "0.1.0",
   "lockfileVersion": 3,
   "requires": true,
-  "homepage": " https://gurenko30.github.io/portfolio-gurenko/",
+  "homepage": " https://gurenko30.github.io/my-portfolio/",
   "packages": {
     "": {
-      "name": "itog-work",
+      "name": "diplom-work",
       "version": "0.1.0",
       "dependencies": {
         "@emotion/react": "^11.11.1",
@@ -29,8 +29,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "build": "react-scripts build",
-    "predeploy": "react-scripts build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build "
   },
   "node_modules/@aashutoshrathi/word-wrap": {
